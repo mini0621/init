@@ -1,0 +1,11 @@
+# 02
+# Identify and display the Ethernet interface characteristics:
+# (a) Identify broadcast address
+ifconfig en0 | grep broadcast | cut -d ' ' -f 6
+# (b) Identify all IP adresses which are part of the same subnet
+# ARP stands for Address Resolution Protocol. 
+# When you try to ping an IP address on your local network, 
+# say 192.168.1.1, your system has to turn the IP address 192.168.1.1 into a MAC address. 
+# This involves using ARP to resolve the address, hence its name.
+# subnet has a same 2 number in front of ip
+arp -a | grep "10.13" | awk -F '[()]' '{print $2}'

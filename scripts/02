@@ -1,0 +1,7 @@
+#! /bin/bash
+# 02
+# Write a script which delete an ACTIVE user on the VM.
+read -p 'Delete Username: ' uservar
+
+sudo pkill -u $uservar
+sudo deluser $uservar

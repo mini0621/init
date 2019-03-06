@@ -1,0 +1,3 @@
+# 06
+# Name the command that reboots the SSH services
+sudo service ssh restart

@@ -1,0 +1,5 @@
+# 13
+# Thanks to the previous question and the reverse DNS find the name of your host
+# nslookup the anser one before
+nslookup $1
+# it shows the hostnem like e3r7p15.42.fr

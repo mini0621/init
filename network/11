@@ -1,0 +1,10 @@
+# Use the output of the previous command
+# to find the name and IP address of the device 
+# that makes the link between you (local network) and the outside world
+
+# previous command gives you this
+# traceroute to 10.51.1.43 (10.51.1.43), 64 hops max, 52 byte packets
+# 1  10.12.254.254 (10.12.254.254)  0.795 ms  4.528 ms  0.646 ms
+# 2  pns2 (10.51.1.43)  0.449 ms  0.289 ms  0.235 ms
+
+# do whois  10.12.254.254 and see the name  

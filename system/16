@@ -1,0 +1,8 @@
+# 16
+# Find the service which makes it possible to run specific tasks following a regular schedule
+# cron  searches  its  spool  area  (/var/spool/cron/crontabs)  for  crontab  files 
+# (which are named after accounts in /etc/passwd); 
+# crontabs found are loaded into memory.  Note that crontabs in  this  directory
+# should not be accessed directly - the crontab command should be used to access and update them.
+#
+cron

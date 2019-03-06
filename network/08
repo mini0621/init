@@ -1,0 +1,5 @@
+# 08
+# Find the provider of slash16.org
+whois slash16.org | grep 'Name Server'
+# nslookup for one of the name server
+# then whois 'name server address' and find amazon in OrgTechName

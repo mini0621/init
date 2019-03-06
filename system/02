@@ -1,0 +1,3 @@
+# 02
+# What command can you use to rename your system?
+sudo hostname server_name
