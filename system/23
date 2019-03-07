@@ -1,4 +1,6 @@
 # 23
-# Explain how connect yourself as new user. (With graphic session and ssh session)
+# Explain how connect yourself as new user.
 # su user_name for terminal
-# 
+#
+# graphically
+# make user on terminal and then logout and login works

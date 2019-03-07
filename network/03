@@ -1,3 +1,4 @@
 # 03
 # Identify the MAC address of the Wi-Fi card
+# networkserup -listallhardwareports shows which network is wifi
 ifconfig en1 | grep "ether" | awk '{print $2}'
